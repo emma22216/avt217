@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+  background-color: lime;
+}
+#container{
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
+}
+.tile1, .tile2, .tile3, .tile4{
+  margin: -10px;
+  float: left;
+}
+.tile1 {
+width: 100px;
+height: 100px;
+  background-color: darkgreen;
+}
+.tile2 {
+width: 100px;
+height:500px;
+transform: rotate(90deg);
+  background-color: green;
+  opacity: .8;
+}
+.tile3 {
+  width: 100px;
+  height:400px;
+  background-color: lightgreen;
+  transform: rotate(45deg);
+  margin-top: 20pt
+}
+.tile4 {
+  width: 50px;
+  height: 50px;
+  background-color: forestgreen;
+  opacity: .5;

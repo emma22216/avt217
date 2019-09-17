@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+#container{
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
+}
+.tile1, .tile2, .tile3{
+  width: 200px;
+  height: 200px;
+  margin: -10px;
+  float: left;
+  opacity: .8;
+}
+.tile1 {
+  background-color: purple;
+}
+.tile2 {
+  background-color: pink;
+}
+.tile3 {
+  background-color: violet;
+}
