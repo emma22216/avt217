@@ -1,18 +1,5 @@
-
-body{
-  text-align: left;
-  background-color:teal;
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
 }
-body{
-  color:lightgrey;
-}
-h1{
-  color: white;
-}
-h2{
-  color: white;
-}
-h3{
-  color: white;
-}
-max-width: 100%; 
