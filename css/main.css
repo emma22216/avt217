@@ -5,3 +5,12 @@ body{
 img{
   max-width: 100%;
 }
+a{
+  color: black;
+  transition color; .5s delay;
+}
+a:hover {
+  color: blue;
+  border-bottom: blue;
+}
+a:visited 
