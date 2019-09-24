@@ -1,13 +1,14 @@
 body{
-  background-color: peachpuff;
+  background-color: plum;
   text-align: center;
+  font-size: 30px;
+  font-family: 'Mansalva', cursive
 }
 img{
   max-width: 100%;
 }
 a{
   color: palevioletred;
-  border-bottom-style: groove;
   transition color; .5s delay;
 }
 a:hover {
@@ -16,7 +17,6 @@ a:hover {
   border-bottom-style: dotted;
 }
 a:visited {
-  color: slateblue;
-  border-bottom: slateblue;
-  border-bottom-style: groove;
+  color: darkmagenta;
+  border-bottom: darkmagenta;
 }
