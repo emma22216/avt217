@@ -1,0 +1,35 @@
+body{background-color: #333333;
+  box-sizing: border-box;
+  margin-left: 225px
+}
+<header></header>
+<nav></nav>
+#container{
+  width: 800px;
+}
+.header{
+  width: 800px;
+  height: 100px;
+  background-color: crimson;
+  margin: 0 0 10px;
+}
+.nav{
+  width: 800px;
+  height: 50px;
+  background-color: crimson;
+  margin: 0 0 10px;
+}
+.col{
+  width: calc(780px/3);
+  height: 1000px;
+  background-color: crimson;
+  margin: 0 10px 0 0;
+  float: left;
+}
+.footer{
+  width: 800px;
+  height: 100px;
+  background-color: crimson;
+  margin: 1020px 0 0;
+}
+<footer></footer>

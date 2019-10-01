@@ -9,14 +9,14 @@ img{
 }
 a{
   color: palevioletred;
-  transition color; .5s delay;
+  text-decoration: none;
+  transition-duration: 1s delay;
+  border-bottom: dotted;
 }
 a:hover {
   color: thistle;
-  border-bottom: thistle;
-  border-bottom-style: dotted;
+  border-bottom: dotted;
 }
 a:visited {
   color: darkmagenta;
-  border-bottom: darkmagenta;
 }
