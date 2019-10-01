@@ -16,6 +16,7 @@ a{
 a:hover {
   color: thistle;
   border-bottom: dotted;
+  border-bottom-color: thistle;
 }
 a:visited {
   color: darkmagenta;
