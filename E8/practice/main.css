@@ -1,0 +1,39 @@
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+*{
+  box-sizing: border-box;
+  margin: auto;
+}
+body{background-color: lightgreen;
+}
+#container{
+  width: 600px;
+  background-color: peru;
+}
+.side, .back, .middle{
+  float: left;
+  border: 10px solid white;
+}
+.center{
+  width: 400px;
+  float: left;
+}
+.side{
+  width: 100px;
+  height: 400px;
+}
+.back{
+  width: 400px;
+  height: 100px;
+}
+.middle{
+  width: 200px;
+  height: 300px;
+}

@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin: auto;
+}
+body{
+  background-color: white;
+}
+
+#container{
+  width: 400px;
+}
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+  float: left;
+  border: 5px solid white;
+  background-color: lightblue
+}
+.center{
+  width: 100px;
+  float: left;
+}
+.tile1{
+  width: 100px;
+  height:200px;
+}
+.tile2{
+  width: 100px;
+  height:200px;
+}
+.tile3{
+  width: 100px;
+  height:100px;
+}
+.tile4{
+  width: 100px;
+  height:100px;
+}
+.tile5{
+  width: 200px;
+  height:100px;
+}
+.tile6{
+  width: 100px;
+  height:200px;
+}
+.tile7{
+  width: 100px;
+  height:400px;
+}
+.tile8{
+  width: 200px;
+  height:400px;
+}
+.tile9{
+  width: 100px;
+  height:200px;
+}
