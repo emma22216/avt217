@@ -1,0 +1,29 @@
+body{
+  background-color: white;
+}
+
+#container{
+  width: 1400px;
+}
+h1{
+  font-family: marydale, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150px;
+}
+h2{
+  font-family: marydale, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+
+}
+p{
+  font-family: franklin-gothic-urw, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20;
+}
+.left{
+  width:600px;
+}

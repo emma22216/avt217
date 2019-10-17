@@ -1,0 +1,25 @@
+*{
+  margin: 0px auto;
+}
+body{
+  background-color: white;
+}
+#container{
+  width: 770px;
+}
+h1{
+  font-family: pragmatica-condensed, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 40px;
+}
+p{
+  font-family: pragmatica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.title{
+  width:260px;
+  text-align: center;
+  margin:20px auto;
+}
