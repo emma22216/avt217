@@ -1,0 +1,45 @@
+
+#container{
+  width: 1000px;
+}
+body{
+  text-align: left;
+  background-color:teal;
+  width: 600px;
+  margin: 50px auto;
+  max-width: 100%;
+}
+body{
+  color: white;
+  font-size: 12pt;
+}
+h1{
+  color: lightblue;
+}
+h2{
+  color: lightblue;
+}
+h3{
+  color: lightblue;
+}
+
+@media only screen and (max-width: 1000px)
+{
+body{background-color: salmon;}
+body{max-width: 90%}
+body{color:white;}
+body{font-size:13pt;}
+h1{color:darkred;}
+h2{color:darkred;}
+h3{color:darkred;}
+}
+@media only screen and (max-width: 500px)
+{
+body{background-color: palegreen;}
+body{max-width: 90%}
+body{color:black;}
+h1{color:darkgreen;}
+h2{color:darkgreen;}
+h3{color:darkgreen;}
+body{font-size:14pt;}
+}
