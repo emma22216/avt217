@@ -1,0 +1,22 @@
+body{
+  background-color: peachpuff;
+  text-align: left;
+}
+img{
+  max-width: 100%;
+}
+a{
+  color: palevioletred;
+  border-bottom-style: groove;
+  transition color; .5s delay;
+}
+a:hover {
+  color: thistle;
+  border-bottom: thistle;
+  border-bottom-style: dotted;
+}
+a:visited {
+  color: slateblue;
+  border-bottom: slateblue;
+  border-bottom-style: groove;
+}
