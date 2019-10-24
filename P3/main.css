@@ -16,6 +16,7 @@ p{
 font-family: source-serif-pro, serif;
 font-weight: 400;
 font-style: normal;}
-img{
-  float: left;
+
+.text{
+  width: 900px;
 }
