@@ -1,0 +1,53 @@
+body{
+  background-color: black;
+}
+#container{
+
+}
+.mouth{
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: black;
+  position: absolute;
+  margin: 250px 650px;
+  z-index: 1;
+}
+.head{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 100px 500px;
+}
+.bod{
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  margin: 230px 500px;
+}
+.arm{
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  margin: 250px 400px;
+}
+.hand{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 250px 375px;
+}
+.thumb{
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 285px 385px;
+}

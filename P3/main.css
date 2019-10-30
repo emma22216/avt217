@@ -7,21 +7,6 @@
   text-align: center;
   color: white;
  }
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
 .top-right {
   font-family: cheap-pine, sans-serif;
   font-weight: 400;
@@ -36,21 +21,6 @@
   margin-top: 55px;
   margin-right: 160px;
   line-height: 145pt;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .intro{
   color: black;
@@ -88,6 +58,7 @@
   font-size: 70pt;
   margin: 30px 180px 0px;
   float: left;
+  color: black;
 }
 .d1{
   font-family: source-serif-pro, serif;
@@ -96,6 +67,7 @@
   font-size: 20pt;
   float: left;
   margin: 10px 180px 10px;
+  color: black;
 }
 .p2{
   color: black;
@@ -118,6 +90,7 @@
   float: right;
   text-align: right;
   width: 700px;
+  color: black;
 }
 .d2{
   font-family: source-serif-pro, serif;
@@ -126,6 +99,7 @@
   font-size: 20pt;
   float: right;
   margin: 10px 160px 0px;
+  color: black;
 }
 .b2{
   width: 1280px;
