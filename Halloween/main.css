@@ -10,8 +10,15 @@ body{
   border-radius: 100%;
   background-color: black;
   position: absolute;
-  margin: 250px 650px;
+  margin: 250px 625px;
   z-index: 1;
+}
+.bod{
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  margin: 230px 500px;
 }
 .head{
   width: 250px;
@@ -20,13 +27,19 @@ body{
   background-color: white;
   position: absolute;
   margin: 100px 500px;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
-.bod{
-  width: 250px;
-  height: 250px;
-  background-color: white;
-  position: absolute;
-  margin: 230px 500px;
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example{
+  0%   {margin: 100px 500px;}
+  25%  {margin: 95px 500px;}
+  50%  {margin: 90px 500px;}
+  75% {margin: 95px 500px;}
+  100% {margin: 100px 500px;}
 }
 .arm{
   width: 200px;
@@ -49,5 +62,146 @@ body{
   border-radius: 100%;
   background-color: white;
   position: absolute;
-  margin: 285px 385px;
+  margin: 285px 390px;
+}
+.tail{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 455px 499.5px;
+}
+.tail2{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 455px 550px;
+}
+.tail3{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 455px 600px;
+}
+.tail4{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 455px 650px;
+}
+.tail5{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 455px 700px;
+}
+.eyel{
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: black;
+  position: absolute;
+  margin: 175px 525px;
+  z-index: 1;
+}
+.eyer{
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: black;
+  position: absolute;
+  margin: 175px 625px;
+  z-index: 1;
+}
+.shadow{
+  width: 200px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: grey;
+  position: absolute;
+  margin: 560px 525px;
+  opacity: 80%;
+}
+.arms{
+  width: 5px;
+  height: 50px;
+  background-color: grey;
+  position: absolute;
+  margin: 250px 495px;
+  opacity: 80%;
+}
+.arms2{
+  width: 50px;
+  height: 100px;
+  background-color: gray;
+  position: absolute;
+  margin: 250px 650px;
+}
+.hands2{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: gray;
+  position: absolute;
+  margin: 225px 650px;
+}
+.hands3{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: gray;
+  position: absolute;
+  margin: 325px 650px;
+}
+.arm2{
+  width: 50px;
+  height: 90px;
+  background-color: white;
+  position: absolute;
+  margin: 260px 655px;
+}
+.hand2{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 235px 655px;
+}
+.hand3{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 325px 655px;
+}
+.bubble{
+  width: 300px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+  margin: 20px 190px;
+}
+.bubblet{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  margin: 100px 380px;
+}
+.boo{
+  margin: 20px 270px;
+  font-size: 30pt;
+  position: absolute;
 }
