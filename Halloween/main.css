@@ -19,6 +19,19 @@ body{
   background-color: white;
   position: absolute;
   margin: 230px 500px;
+  -webkit-animation-name: example7; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example7;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example7{
+  0%   {margin: 230px 500px;}
+  25%  {margin: 225px 500px;}
+  50%  {margin: 220px 500px;}
+  75% {margin: 225px 500px;}
+  100% {margin: 230px 500px;}
 }
 .head{
   width: 250px;
@@ -58,7 +71,7 @@ body{
 }
 .thumb{
   width: 25px;
-  height: 25px;
+  height: 30px;
   border-radius: 100%;
   background-color: white;
   position: absolute;
@@ -71,6 +84,19 @@ body{
   background-color: white;
   position: absolute;
   margin: 455px 499.5px;
+  -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2{
+  0%   {margin: 455px 500px;}
+  25%  {margin: 450px 500px;}
+  50%  {margin: 445px 500px;}
+  75% {margin: 450px 500px;}
+  100% {margin: 455px 500px;}
 }
 .tail2{
   width: 50px;
@@ -79,6 +105,19 @@ body{
   background-color: white;
   position: absolute;
   margin: 455px 550px;
+  -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example3;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3{
+  0%   {margin: 455px 550px;}
+  25%  {margin: 450px 550px;}
+  50%  {margin: 445px 550px;}
+  75% {margin: 450px 550px;}
+  100% {margin: 455px 550px;}
 }
 .tail3{
   width: 50px;
@@ -87,6 +126,19 @@ body{
   background-color: white;
   position: absolute;
   margin: 455px 600px;
+  -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example4;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4{
+  0%   {margin: 455px 600px;}
+  25%  {margin: 450px 600px;}
+  50%  {margin: 445px 600px;}
+  75% {margin: 450px 600px;}
+  100% {margin: 455px 600px;}
 }
 .tail4{
   width: 50px;
@@ -95,6 +147,19 @@ body{
   background-color: white;
   position: absolute;
   margin: 455px 650px;
+  -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example5;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5{
+  0%   {margin: 455px 650px;}
+  25%  {margin: 450px 650px;}
+  50%  {margin: 445px 650px;}
+  75% {margin: 450px 650px;}
+  100% {margin: 455px 650px;}
 }
 .tail5{
   width: 50px;
@@ -103,6 +168,19 @@ body{
   background-color: white;
   position: absolute;
   margin: 455px 700px;
+  -webkit-animation-name: example6; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example6;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example6{
+  0%   {margin: 455px 700px;}
+  25%  {margin: 450px 700px;}
+  50%  {margin: 445px 700px;}
+  75% {margin: 450px 700px;}
+  100% {margin: 455px 700px;}
 }
 .eyel{
   width: 25px;
