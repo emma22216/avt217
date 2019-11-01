@@ -2,6 +2,8 @@
 *{
   margin: 0px;
 }
+
+}
 .container {
   position: relative;
   text-align: center;
@@ -122,12 +124,5 @@
   font-weight: 600;
   font-style: normal;
   font-size: 20pt;
-  float: right;
   margin: 10px 0px 0px;
-}
-.b3{
-  width: 1280px;
-  height: 850px;
-  background-color: #EBEBEB;
-  margin: 1500px 0px 0px 0px;
 }
