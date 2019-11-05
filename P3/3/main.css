@@ -1,0 +1,125 @@
+*{
+  margin: 0px auto;
+}
+#container{
+  width: 768px;
+}
+.img {
+  position: relative;
+  text-align: center;
+  color: white;
+ }
+ .top-right {
+   font-family: cheap-pine, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 90pt;
+   color: black;
+   text-align: right;
+   width: 350px;
+   top: 70px;
+   right: 120px;
+   position: absolute;
+   line-height: 80pt;
+ }
+.intro{
+  text-align: left;
+  font-family: source-serif-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 130px;
+  margin-right: 130px;
+  color: black;
+  font-size: 11pt;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+.p1{
+  text-align: left;
+  font-family: source-serif-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 130px;
+  margin-right: 140px;
+  color: black;
+  font-size: 10pt;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.img2{
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 130px;
+  margin-right: 130px
+}
+.h1{
+  font-family: cheap-pine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38pt;
+  margin: 15px 230px 0px 130px;
+  float: left;
+  color: black;
+}
+.d1{
+  font-family: source-serif-pro, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13pt;
+  float: left;
+  margin: 5px 320px 10px 130px;
+  color: black;
+}
+.block{
+  width: 100%;
+  height: 730px;
+  background-color: #EBEBEB;
+}
+.h2{
+  font-family: cheap-pine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38pt;
+  width: 400px;
+  margin: 15px 230px 0px 130px;
+  float: left;
+  text-align: left;
+  color: black;
+}
+.d2{
+  font-family: source-serif-pro, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13pt;
+  float: left;
+  margin: 5px 320px 10px 130px;
+  color: black;
+}
+.img3{
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 130px;
+  margin-right: 130px
+}
+.p2{
+  text-align: left;
+  font-family: source-serif-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 130px;
+  margin-right: 140px;
+  color: black;
+  font-size: 10pt;
+  margin-top: 20px;
+  margin-top: 20px;
+}
+.block2{
+  width: 100%;
+  height: 820px;
+  background-color: #EBEBEB;
+}
+.block3{
+  width: 100%;
+  height: 910px;
+  background-color: #EBEBEB;
+}
