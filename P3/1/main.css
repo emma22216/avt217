@@ -1,13 +1,12 @@
-*{
+body{
   margin: 0px;
 }
 #container{
   width: 100%;
+  background-color: white;
 }
 .img {
   position: relative;
-  text-align: center;
-  color: white;
  }
  .top-right {
    font-family: cheap-pine, sans-serif;
@@ -16,13 +15,13 @@
    position: absolute;
    top: 8px;
    right: 16px;
-   font-size: 163pt;
+   font-size: 17vw;
+   line-height: 30vh;
    color: black;
    text-align: right;
    width: 600px;
    margin-top: 55px;
    margin-right: 160px;
-   line-height: 145pt;
  }
 .intro{
   text-align: left;
@@ -32,7 +31,7 @@
   margin-left: 180px;
   margin-right: 180px;
   color: black;
-  font-size: 17pt;
+  font-size: 1.7vw;
   margin-top: 30px;
   margin-bottom: 40px
 }
@@ -43,7 +42,7 @@
   font-style: normal;
   margin-right: 180px;
   color: black;
-  font-size: 13pt;
+  font-size: 1.3vw;
   width: 360px;
   position: relative;
   float: right;
@@ -56,7 +55,7 @@
   font-family: cheap-pine, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 70pt;
+  font-size: 7vw;
   margin: 30px 180px 0px;
   float: left;
   color: black;
@@ -65,7 +64,7 @@
   font-family: source-serif-pro, serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 20pt;
+  font-size: 2.3vw;
   float: left;
   margin: 10px 180px 10px;
   color: black;
@@ -79,7 +78,7 @@
   font-family: cheap-pine, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 70pt;
+  font-size: 7vw;
   width: 750px;
   margin: 30px 180px 0px;
   float: right;
@@ -90,7 +89,7 @@
   font-family: source-serif-pro, serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 20pt;
+  font-size: 2.3vw;
   float: right;
   margin: 10px 180px 10px;
   color: black;
@@ -107,7 +106,7 @@
   margin-left:180px;
   width: 360px;
   color: black;
-  font-size: 13pt;
+  font-size: 1.3vw;
   position: relative;
   float: left;
 }
@@ -128,31 +127,27 @@
 .top-right{
   top: 8px;
   right: 16px;
-  font-size: 120pt;
-  width: 600px;
+  width: 500px;
+  line-height: 25vh;
   margin-top: 30px;
   margin-right: 130px;
-  line-height: 120pt;
 }
 .p1{
-  font-size:11pt;
+  font-size: 1.5vw;
   margin: 0px 50px 0px 0px;
 }
 .p2{
-  font-size:11pt;
+  font-size: 1.5vw;
   margin: 0px 0px 0px 50px;
 }
 .intro{
-font-size: 13pt;
 margin: 20px 150px;
 }
 .h1, .h2{
-font-size: 60pt;
 margin: 20px 150px 0px;
 width: 650px;
 }
 .d1, .d2{
-font-size: 15pt;
 margin: 10px 150px 5px;
 }
 .img2 img{
@@ -187,31 +182,27 @@ margin: 10px 150px 5px;
   .top-right{
     top: 40px;
     right: 10px;
-    font-size: 90pt;
-    width: 400px;
-    line-height: 80pt;
+    width: 350px;
+    line-height: 20vh;
   }
   .p1, .p2{
-    font-size:10pt;
     width: : 600px;
     text-align: left;
     float: left;
+    font-size: 2.3vw;
     margin-left: 130px;
     margin-top: 20px;
   }
   .intro{
-  font-size: 11pt;
   margin: 20px 130px;
   }
   .h1, .h2{
-  font-size: 38pt;
   margin: 20px 230px 0px 130px;
   width: 630px;
   float: left;
   text-align: left;
   }
   .d1, .d2{
-  font-size: 13pt;
   margin: 5px 200px 10px 130px;
   float: left;
   }
@@ -236,42 +227,36 @@ margin: 10px 150px 5px;
   .top-right{
     top: 0px;
     right: 0px;
-    font-size: 60pt;
     width: 300px;
-    line-height: 60pt;
+    line-height: 15vh;
     margin-right: 60px;
     margin-top: 20px;
   }
   .p1, .p2{
-    font-size:8pt;
     margin: 20px 50px;
     width: : 350px;
+    font-size: 2.3vw;
     text-align: left;
   }
   .intro{
-  font-size: 10pt;
   margin: 20px 50px;
+  font-size: 2.4vw;
   }
   .h1, .h2{
-  font-size: 25pt;
   margin: 15px 70px 0px 50px;
   width: 300px;
   float: left;
   text-align: left;
   }
   .d1, .d2{
-  font-size: 10pt;
   margin: 10px 150px 10px 50px;
   float: left;
   }
   .img2 img{
-    max-width: 500px;
-    margin-right: 60px;
-    float: left;
+    max-width: 100%;
   }
   .img3 img{
-    max-width: 500px;
-    margin-left: 50px;
+    max-width: 100%;
 }
 .block{
   width: 100%;
