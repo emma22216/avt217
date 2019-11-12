@@ -38,12 +38,12 @@ body{
   width: 100%;
   margin-left: 150px;
   margin-right: 180px;
-  padding-bottom: 45%;
+  padding-bottom: 40%;
 }
 .text2{
   margin-right: 180px;
   margin-left: 150px;
-  padding-bottom: 60%;
+  padding-bottom: 50%;
 }
 .p1{
   text-align: left;
@@ -78,6 +78,7 @@ body{
 .block{
   width: 100%;
   background-color: #EBEBEB;
+  margin-bottom: 5%;
 }
 .h2{
   font-family: cheap-pine, sans-serif;
@@ -116,10 +117,13 @@ body{
 .block2{
   width: 100%;
   background-color: #EBEBEB;
+  margin-bottom: 5%;
+  margin-top: 15%;
 }
 .block3{
   width: 100%;
   background-color: #EBEBEB;
+  margin-top: 5%;
 }
 @media only screen and (max-width: 1024px)
 {
