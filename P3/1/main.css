@@ -2,7 +2,7 @@ body{
   margin: 0px;
 }
 #container{
-  width: 100%;
+  max-width: 100%;
   background-color: white;
 }
 .img {
@@ -28,36 +28,44 @@ body{
   font-family: source-serif-pro, serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 180px;
+  margin-left: 150px;
   margin-right: 180px;
   color: black;
   font-size: 1.7vw;
   margin-top: 30px;
-  margin-bottom: 40px
+}
+.text{
+  width: 100%;
+  margin-left: 150px;
+  margin-right: 180px;
+  padding-bottom: 45%;
+}
+.text2{
+  margin-right: 180px;
+  margin-left: 150px;
+  padding-bottom: 60%;
 }
 .p1{
   text-align: left;
   font-family: source-serif-pro, serif;
   font-weight: 400;
   font-style: normal;
-  margin-right: 180px;
   color: black;
-  font-size: 1.3vw;
-  width: 360px;
   position: relative;
-  float: right;
+  float: left;
+  max-width: 30%;
+  padding-left: 1%;
+  margin-right: 50px;
 }
 .img2{
   float: left;
-  margin-left: 150px;
+  position: relative;
 }
 .h1{
   font-family: cheap-pine, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 7vw;
-  margin: 30px 180px 0px;
-  float: left;
   color: black;
 }
 .d1{
@@ -65,13 +73,10 @@ body{
   font-weight: 600;
   font-style: normal;
   font-size: 2.3vw;
-  float: left;
-  margin: 10px 180px 10px;
   color: black;
 }
 .block{
   width: 100%;
-  height: 625px;
   background-color: #EBEBEB;
 }
 .h2{
@@ -79,11 +84,10 @@ body{
   font-weight: 400;
   font-style: normal;
   font-size: 7vw;
-  width: 750px;
-  margin: 30px 180px 0px;
-  float: right;
-  text-align: right;
   color: black;
+  text-align: right;
+  float: right;
+  width: 80%;
 }
 .d2{
   font-family: source-serif-pro, serif;
@@ -91,39 +95,44 @@ body{
   font-style: normal;
   font-size: 2.3vw;
   float: right;
-  margin: 10px 180px 10px;
   color: black;
+  margin-left: 300px;
 }
 .img3{
+  position: relative;
   float: right;
-  margin-right:180px;
 }
 .p2{
   text-align: left;
   font-family: source-serif-pro, serif;
   font-weight: 400;
   font-style: normal;
-  margin-left:180px;
-  width: 360px;
+  max-width: 40%;
   color: black;
-  font-size: 1.3vw;
   position: relative;
   float: left;
+  padding-right: 1%;
 }
 .block2{
   width: 100%;
-  height: 730px;
   background-color: #EBEBEB;
-  margin-top: 860px
 }
 .block3{
   width: 100%;
-  height: 780px;
   background-color: #EBEBEB;
-  margin-top: 715px;
 }
 @media only screen and (max-width: 1024px)
 {
+  .text{
+    width: 100%;
+    margin-left: 130px;
+    margin-right: 110px;
+  }
+  .text2{
+    margin-right: 110px;
+    margin-left: 130px;
+    padding-bottom: 5%;
+  }
 .top-right{
   top: 8px;
   right: 16px;
@@ -133,123 +142,153 @@ body{
   margin-right: 130px;
 }
 .p1{
-  font-size: 1.5vw;
-  margin: 0px 50px 0px 0px;
+  max-width: 30%;
 }
 .p2{
-  font-size: 1.5vw;
-  margin: 0px 0px 0px 50px;
+  max-width: 30%;
 }
 .intro{
 margin: 20px 150px;
 }
 .h1, .h2{
-margin: 20px 150px 0px;
-width: 650px;
+width: 80%;
 }
 .d1, .d2{
-margin: 10px 150px 5px;
 }
 .img2 img{
-  max-width: 400px;
-  float: left;
+  width: 500px;
 }
 .img3 img{
-  max-width: 400px;
-  margin-right: 0px;
+  width: 500px;
   float: right;
 }
 .block{
   width: 100%;
-  height: 480px;
   background-color: #EBEBEB;
+  float: left;
 }
 .block2{
   width: 100%;
-  height: 585px;
   background-color: #EBEBEB;
+  float: left;
 }
 .block3{
   width: 100%;
-  height: 600px;
   background-color: #EBEBEB;
+  float: left;
 }
 @media only screen and (max-width: 768px)
 {
   #container{
     width: 768px;
   }
-  .top-right{
-    top: 40px;
-    right: 10px;
-    width: 350px;
-    line-height: 20vh;
+  .text{
+    width: 100%;
+    margin-left: 120px;
   }
-  .p1, .p2{
-    width: : 600px;
+  .text2{
+    margin-left: 120px;
+  }
+  .top-right{
+    top: 25px;
+    right: 0px;
+    width: 350px;
+    line-height: 17vh;
+  }
+  .p1{
     text-align: left;
-    float: left;
     font-size: 2.3vw;
-    margin-left: 130px;
-    margin-top: 20px;
+    max-width: 65%;
+    padding-left: 0%;
+    float: left;
+  }
+  .p2{
+    max-width: 100%;
+    text-align: left;
+    font-size: 2.3vw;
+    float: left;
   }
   .intro{
   margin: 20px 130px;
+  font-size: 2.3vw;
   }
-  .h1, .h2{
-  margin: 20px 230px 0px 130px;
-  width: 630px;
-  float: left;
+  .h1{
   text-align: left;
+  float: left;
+  }
+  .h2{
+    float: left;
+    margin-left: 0px;
+    text-align: left;
   }
   .d1, .d2{
-  margin: 5px 200px 10px 130px;
-  float: left;
+    float: left;
+    margin-left: 0px;
   }
   .img2 img{
-    max-width: 600px;
     float: left;
+    max-width: 100%;
   }
   .img3 img{
-    max-width: 600px;
     float: left;
+    max-width: 100%;
 }
 .block{
   width: 100%;
-  height: 580px;
   background-color: #EBEBEB;
+  float: left;
+}
+.block2{
+  width: 100%;
+  background-color: #EBEBEB;
+  float: left;
+}
+.block3{
+  width: 100%;
+  background-color: #EBEBEB;
+  float: left;
 }
 @media only screen and (max-width: 500px)
 {
   #container{
     width: 500px;
   }
+  .text{
+    width: 100%;
+    margin-left:0px;
+  }
+  .text2{
+    width: 100%;
+    margin-left:0px;
+  }
   .top-right{
     top: 0px;
     right: 0px;
     width: 300px;
-    line-height: 15vh;
+    line-height: 12vh;
     margin-right: 60px;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   .p1, .p2{
-    margin: 20px 50px;
-    width: : 350px;
+    margin: 20px 80px;
+    width: 80%;
     font-size: 2.3vw;
     text-align: left;
+    float: left;
+
   }
   .intro{
   margin: 20px 50px;
   font-size: 2.4vw;
   }
   .h1, .h2{
-  margin: 15px 70px 0px 50px;
+  margin: 15px 70px 0px 80px;
   width: 300px;
   float: left;
   text-align: left;
   }
   .d1, .d2{
-  margin: 10px 150px 10px 50px;
+  margin: 10px 150px 10px 80px;
   float: left;
   }
   .img2 img{
@@ -257,19 +296,17 @@ margin: 10px 150px 5px;
   }
   .img3 img{
     max-width: 100%;
+    float: left;
 }
 .block{
   width: 100%;
-  height: 550px;
   background-color: #EBEBEB;
 }
 .block2{
   width: 100%;
-  height: 620px;
   background-color: #EBEBEB;
 }
 .block3{
   width: 100%;
-  height: 720px;
   background-color: #EBEBEB;
 }
