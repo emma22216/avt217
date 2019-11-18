@@ -8,7 +8,7 @@ body{
 .img {
   position: relative;
  }
- .top-right {
+ .imgtop {
    font-family: cheap-pine, sans-serif;
    font-weight: 400;
    font-style: normal;
@@ -16,7 +16,7 @@ body{
    top: 8px;
    right: 16px;
    font-size: 17vw;
-   line-height: 30vh;
+   line-height: .9;
    color: black;
    text-align: right;
    width: 600px;
@@ -28,22 +28,42 @@ body{
   font-family: source-serif-pro, serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 150px;
-  margin-right: 180px;
   color: black;
   font-size: 1.7vw;
-  margin-top: 30px;
+  margin: auto 15%;
 }
-.text{
+.block{
   width: 100%;
-  margin-left: 150px;
-  margin-right: 180px;
-  padding-bottom: 40%;
+  background-color: #EBEBEB;
+  content: "block";
+  clear: both;
+  display: table;
 }
-.text2{
-  margin-right: 180px;
-  margin-left: 150px;
-  padding-bottom: 50%;
+.block2{
+  width: 100%;
+  background-color: white;
+}
+.content{
+  width: 100%;
+  margin: auto 15%;
+  padding-top: 5%;
+  padding-bottom: 45%;
+}
+.content2{
+  width: 100%;
+  margin: auto 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.imgleft{
+  float: left;
+  position: relative;
+  max-width: 45%;
+}
+.imgright{
+  float: right;
+  position: relative;
+  margin-right: 30%;
 }
 .p1{
   text-align: left;
@@ -51,266 +71,125 @@ body{
   font-weight: 400;
   font-style: normal;
   color: black;
-  position: relative;
   float: left;
   max-width: 30%;
-  padding-left: 1%;
-  margin-right: 50px;
-}
-.img2{
-  float: left;
-  position: relative;
-}
-.h1{
-  font-family: cheap-pine, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 7vw;
-  color: black;
-}
-.d1{
-  font-family: source-serif-pro, serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 2.3vw;
-  color: black;
-}
-.block{
-  width: 100%;
-  background-color: #EBEBEB;
-  margin-bottom: 5%;
-}
-.h2{
-  font-family: cheap-pine, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 7vw;
-  color: black;
-  text-align: right;
-  float: right;
-  width: 80%;
-}
-.d2{
-  font-family: source-serif-pro, serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 2.3vw;
-  float: right;
-  color: black;
-  margin-left: 300px;
-}
-.img3{
-  position: relative;
-  float: right;
+  margin-left: 1%;
 }
 .p2{
   text-align: left;
   font-family: source-serif-pro, serif;
   font-weight: 400;
   font-style: normal;
-  max-width: 40%;
   color: black;
-  position: relative;
-  float: left;
-  padding-right: 1%;
+  max-width: 30%;
 }
-.block2{
-  width: 100%;
-  background-color: #EBEBEB;
-  margin-bottom: 5%;
-  margin-top: 15%;
+.headright{
+  float: right;
+  text-align: right;
+  width: 60%;
+  margin: auto 30%;
 }
-.block3{
-  width: 100%;
-  background-color: #EBEBEB;
-  margin-top: 5%;
+h1{
+  font-family: cheap-pine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 7vw;
+  color: black;
+  margin: 0px;
+}
+h2{
+  font-family: source-serif-pro, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.3vw;
+  color: black;
 }
 @media only screen and (max-width: 1024px)
 {
-  .text{
-    width: 100%;
-    margin-left: 130px;
-    margin-right: 110px;
-  }
-  .text2{
-    margin-right: 110px;
-    margin-left: 130px;
-    padding-bottom: 5%;
-  }
-.top-right{
+.imgtop{
   top: 8px;
   right: 16px;
   width: 500px;
-  line-height: 25vh;
   margin-top: 30px;
   margin-right: 130px;
 }
-.p1{
-  max-width: 30%;
+.imgleft img{
+  width: 90%;
 }
-.p2{
-  max-width: 30%;
+.imgright img{
+  width: 90%;
+  margin-left: 1%;
 }
-.intro{
-margin: 20px 150px;
-}
-.h1, .h2{
-width: 80%;
-}
-.d1, .d2{
-}
-.img2 img{
-  width: 500px;
-}
-.img3 img{
-  width: 500px;
-  float: right;
-}
-.block{
-  width: 100%;
-  background-color: #EBEBEB;
-  float: left;
-}
-.block2{
-  width: 100%;
-  background-color: #EBEBEB;
-  float: left;
-}
-.block3{
-  width: 100%;
-  background-color: #EBEBEB;
-  float: left;
+.imgright{
+  margin-right:25%;
 }
 @media only screen and (max-width: 768px)
 {
   #container{
     width: 768px;
   }
-  .text{
-    width: 100%;
-    margin-left: 120px;
-  }
-  .text2{
-    margin-left: 120px;
-  }
-  .top-right{
+  .imgtop{
     top: 25px;
     right: 0px;
     width: 350px;
-    line-height: 17vh;
   }
-  .p1{
+  .p1, .p2{
     text-align: left;
     font-size: 2.3vw;
     max-width: 65%;
-    padding-left: 0%;
-    float: left;
-  }
-  .p2{
-    max-width: 100%;
-    text-align: left;
-    font-size: 2.3vw;
     float: left;
   }
   .intro{
   margin: 20px 130px;
   font-size: 2.3vw;
   }
-  .h1{
-  text-align: left;
-  float: left;
-  }
-  .h2{
+  .imgleft img{
     float: left;
-    margin-left: 0px;
-    text-align: left;
+    width: 150%;
   }
-  .d1, .d2{
+  .imgright img{
     float: left;
-    margin-left: 0px;
-  }
-  .img2 img{
-    float: left;
-    max-width: 100%;
-  }
-  .img3 img{
-    float: left;
-    max-width: 100%;
+    width: 115%;
 }
-.block{
-  width: 100%;
-  background-color: #EBEBEB;
-  float: left;
-}
-.block2{
-  width: 100%;
-  background-color: #EBEBEB;
-  float: left;
-}
-.block3{
-  width: 100%;
-  background-color: #EBEBEB;
-  float: left;
+.imgright{
+  margin-right: 40%;
 }
 @media only screen and (max-width: 500px)
 {
   #container{
     width: 500px;
   }
-  .text{
-    width: 100%;
-    margin-left:0px;
-  }
-  .text2{
-    width: 100%;
-    margin-left:0px;
-  }
-  .top-right{
+  .imgtop{
     top: 0px;
     right: 0px;
     width: 300px;
-    line-height: 12vh;
     margin-right: 60px;
     margin-top: 15px;
   }
   .p1, .p2{
-    margin: 20px 80px;
     width: 80%;
     font-size: 2.3vw;
     text-align: left;
     float: left;
-
   }
   .intro{
-  margin: 20px 50px;
   font-size: 2.4vw;
+  width: 70%;
+  margin: auto;
   }
-  .h1, .h2{
-  margin: 15px 70px 0px 80px;
-  width: 300px;
-  float: left;
+  h1{
   text-align: left;
   }
-  .d1, .d2{
-  margin: 10px 150px 10px 80px;
-  float: left;
+  h2{
+  text-align: left;
   }
-  .img2 img{
-    max-width: 100%;
+  .headright{
+  margin-right: 40%;
   }
-  .img3 img{
-    max-width: 100%;
+  .imgleft img{
+    width: 150%;
     float: left;
-}
-.block{
-  width: 100%;
-  background-color: #EBEBEB;
-}
-.block2{
-  width: 100%;
-  background-color: #EBEBEB;
-}
-.block3{
-  width: 100%;
-  background-color: #EBEBEB;
+  }
+  .imgright img{
+    width: 100%;
 }
