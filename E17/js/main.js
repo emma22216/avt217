@@ -29,6 +29,6 @@ $('.snow').click(function() {
 $(document).ready(function(){
   console.log('Ready!');
   $('.snow').click(function() {
-    $('.number-1').css('text-align','left');
+    $('.number-2').css('text-align','left');
   });
 });
