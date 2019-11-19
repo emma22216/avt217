@@ -154,6 +154,15 @@ h2{
 .imgright{
   margin-right: 40%;
 }
+.headright{
+margin-right: 40%;
+}
+h1{
+text-align: left;
+}
+h2{
+text-align: left;
+}
 @media only screen and (max-width: 500px)
 {
   #container{
