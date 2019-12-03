@@ -41,7 +41,9 @@ perspective: 1000;
   width: 340px;
   background-color: white;
 }
-
+.potato{
+	position: absolute;
+}
 #piece-1{
 	top: 0;
 	left: 0;
@@ -90,7 +92,9 @@ p{
 	letter-spacing: 2px;
   color: black;
 }
-
+h2{
+	text-align: center;
+}
 .glow{
 	z-index: 101;
     -webkit-box-shadow: 0px 0px 6px 0px #000000;
