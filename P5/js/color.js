@@ -14,37 +14,25 @@ $(document).ready(function(){
 	//  shuffle the tiles
   function shuffleTiles(){
 		if(shuffle == 1){
-			$('#piece-1').css({top: 340, left: 680});
-			$('#piece-2').css({top: 0, left: 680});
-			$('#piece-3').css({top: 340, left: 340});
-			$('#piece-4').css({top: 0, left: 340});
-			$('#piece-5').css({top: 340, left: 0});
-			$('#piece-6').css({top: 0, left: 0});
+			var input = $('input:image').css({top: 340, left: 680});
 		} else if(shuffle == 2){
-			$('#piece-1').css({top: 340, left: 0});
-			$('#piece-2').css({top: 0, left: 0});
-			$('#piece-3').css({top: 340, left: 340});
-			$('#piece-4').css({top: 0, left: 340});
-			$('#piece-5').css({top: 340, left: 680});
-			$('#piece-6').css({top: 0, left: 680});
+			var input = $('input:image').css({top: 340, left: 0});
 		} else if(shuffle == 3){
-			$('#piece-1').css({top: 0, left: 680});
-			$('#piece-2').css({top: 0, left: 0});
-			$('#piece-3').css({top: 340, left: 340});
-			$('#piece-4').css({top: 340, left: 680});
-			$('#piece-5').css({top: 0, left: 340});
-			$('#piece-6').css({top: 340, left: 0});
+			var input = $('input:image').css({top: 0, left: 680});
 		} else if(shuffle == 4){
-			$('#piece-1').css({top: 0, left: 680});
-			$('#piece-2').css({top: 340, left: 680});
-			$('#piece-3').css({top: 0, left: 340});
-			$('#piece-4').css({top: 340, left: 340});
-			$('#piece-5').css({top: 0, left: 0});
-			$('#piece-6').css({top: 340, left: 0});
+			var input = $('input:image').css({top: 0, left: 680});
+
 		}
 	}
-
-  	//  play the game
+  $(document).ready(function() {
+   setInterval(function(){
+  			shuffleTiles();
+  			setInterval(function(){
+  				secs++
+  			}, 1000);
+  		}, 1000);
+  	});
+    //  play the game
 
   	$('.pieces').click(function(){
 
@@ -78,19 +66,15 @@ $(document).ready(function(){
 
   			setTimeout(function(){
   				if(
-            $('#piece-1').css('left') == '0px' && $('#piece-1').css('top') == '0px' &&
-            $('#piece-2').css('left') == '340px' && $('#piece-2').css('top') == '0px' &&
-            $('#piece-3').css('left') == '680px' && $('#piece-3').css('top') == '0px' &&
-            $('#piece-4').css('left') == '0px' && $('#piece-4').css('top') == '340px' &&
-            $('#piece-5').css('left') == '340px' && $('#piece-5').css('top') == '340px' &&
-            $('#piece-6').css('left') == '680px' && $('#piece-6').css('top') == '340px' 
+
+            $('#piece-6').css('left') == '0px' && $('#piece-6').css('top') == '0px'
   				){
   					$('p').text('You have solved the puzzle in ' + secs + ' seconds using ' + moves + ' moves!!');
   					$('article').addClass('glow-2');
   					moves = 0;
   				}
   			}, 1000);
-
+  
   			//  increment the move counter
   			moves++
 

@@ -39,6 +39,7 @@ perspective: 1000;
 
 .potato img{
   width: 340px;
+  background-color: white;
 }
 
 #piece-1{
@@ -82,6 +83,13 @@ p{
 	width: 1020px;
 	text-align: center;
 	}
+  h1 {
+	font-size: 48px;
+	text-align: center;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+  color: black;
+}
 
 .glow{
 	z-index: 101;
