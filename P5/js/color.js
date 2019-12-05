@@ -72,7 +72,7 @@ $(document).ready(function(){
             $('#piece-6').css('left') == pL + 'px' && $('#piece-6').css('top') == pT + 'px'
   				){
             $('h1').text('You Found the Potato!')
-  					$('p').text('You have solved the puzzle in ' + secs + ' seconds using ' + moves + ' moves!!');
+            $('p').text('You have solved the puzzle in ' + secs + ' seconds using ' + moves + ' moves!!');
   					$('article').addClass('glow-2');
   					moves = 0;
   				}
